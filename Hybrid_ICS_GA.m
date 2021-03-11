@@ -2,7 +2,7 @@
 clc;clear;
 CostFunction=@(x) MyThuan34m(x);
 tic;
-%Boundary
+%Boundary (apply your problem)
 nVar=size(Boundary,1);
 
 VarSize=[1 nVar];

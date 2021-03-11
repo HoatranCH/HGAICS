@@ -1,32 +1,8 @@
-% Thuat toan lai giua thuat toan di truyen va thuat toan cuckoo search
-% Hybrid GA_CS
-% Le Xuan Thang 
-% 22 - 05 - 2019
-% Dai hoc Giao thong van tai - University of Transport and Communications
-% Khoa Cong Trinh - Department of Civil Engineering
-% Bo mon Cau Ham  - Section Bridge and Tunnel
-% Lien he: + 84.359-876-787
-% Email: lxt1021997lxt@gmail.com
 
 clc;clear;
 CostFunction=@(x) MyThuan34m(x);
 tic;
-Boundary=[2.96E10 4.1884E10;
-            1.85E11 2.3E11
-            2.856E10 3.687E10
-            2.874E10 4.064E10
-            2.944E10 4.01E10
-            2.874E10 4.01E10
-            2.944E10 4.01E10
-            2.874E10 3.71E10
-            2.821E10 4.01E10];
-% Boundary=[1.94e11 2.2e11
-%             1e10 2e10
-%             1e10 2e10
-%             1e7 2e7
-%             1e7 2e7
-%             1e10 2e10
-%             1e10 2e10]; % Boundary
+%Boundary
 nVar=size(Boundary,1);
 
 VarSize=[1 nVar];
